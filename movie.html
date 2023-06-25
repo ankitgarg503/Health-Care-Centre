@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="right"><a href="#">Login</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+      <!-- Login form -->
+      <div class="login-container">
+        <form>
+          <h2>Login</h2>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+
+      <!-- Movie thumbnails -->
+      <h2>Popular Movies</h2>
+      <div class="movie-thumbnails">
+        <a href="#">
+          <img src="movie1.jpg" alt="Movie 1">
+          <h3>Movie 1</h3>
+        </a>
+        <a href="#">
+          <img src="movie2.jpg" alt="Movie 2">
+          <h3>Movie 2</h3>
+        </a>
+        <a href="#">
+          <img src="movie3.jpg" alt="Movie 3">
+          <h3>Movie 3</h3>
+        </a>
+        <a href="#">
+          <img src="movie4.jpg" alt="Movie 4">
+          <h3>Movie 4</h3>
+        </a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Movie Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

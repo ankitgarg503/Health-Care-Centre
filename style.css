@@ -1,0 +1,327 @@
+
+/* general styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+    color: black;
+}
+p{
+    color: rgb(18, 16, 16);
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* header styles */
+
+header {
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+nav ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li a {
+	font-size: 18px;
+	font-weight: 500;
+	transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #00c7c7;
+}
+
+/* banner styles */
+
+#banner {
+	background-image: url('i2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+#banner h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+#banner p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.btn {
+	background-color: #00c7c7;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #008b8b;
+	cursor: pointer;
+}
+
+/* about us styles */
+
+#about-us {
+	max-width: 1200px;
+	margin: 80px auto;
+	padding: 20px;
+}
+
+/* services styles */
+
+#services {
+	background-color: #f5f5f5;
+	max-width: 1200px;
+	margin: 80px auto;
+	padding: 20px;
+}
+
+.services-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
+.service {
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.service img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.service h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.service p {
+	font-size: 16px;
+}
+
+/* contact us styles */
+
+#contact-us {
+	max-width: 1200px;
+	margin: 80px auto;
+	padding: 20px;
+}
+
+.contact-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.contact-item {
+	display: flex;
+	align-items: center;
+}
+
+.contact-item img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Health Care Center</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about-us">About Us</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact-us">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="banner">
+			<h1>Health Care Center</h1>
+			<p>Your health is our top priority.</p>
+			<a href="#services" class="btn">Learn More</a>
+		</section>
+		<section id="about-us">
+			<h2>About Us</h2>
+			<p>Health Care Center is a state-of-the-art medical facility that provides comprehensive health care services to individuals and families. We have a team of highly qualified and experienced health care professionals who are dedicated to providing exceptional care to our patients.</p>
+		</section>
+		<section id="services">
+			<h2>Services</h2>
+			<div class="services-grid">
+				<div class="service">
+					<img src="images/service-1.jpg" alt="Service 1">
+					<h3>General Medicine</h3>
+					<p>Our general medicine department provides a wide range of medical services to help you maintain good health and treat any illnesses or injuries.</p>
+				</div>
+				<div class="service">
+					<img src="images/service-2.jpg" alt="Service 2">
+					<h3>Pediatrics</h3>
+					<p>Our pediatrics department specializes in providing medical care to infants, children, and adolescents, ensuring that they receive the best possible care.</p>
+				</div>
+				<div class="service">
+					<img src="images/service-3.jpg" alt="Service 3">
+					<h3>Cardiology</h3>
+					<p>Our cardiology department provides advanced cardiac care, including diagnostic testing and treatment for heart disease and related conditions.</p>
+				</div>
+				<div class="service">
+					<img src="images/service-4.jpg" alt="Service 4">
+					<h3>Dental Care</h3>
+					<p>Our dental care department provides a wide range of dental services, including preventive care, restorative treatments, and cosmetic procedures.</p>
+				</div>
+			</div>
+		</section>
+		<section id="contact-us">
+			<h2>Contact Us</h2>
+			<p>Thank you for your interest in Health Care Center. Please use the information below to contact us.</p>
+			<div class="contact-info">
+				<div class="contact-item">
+					<img src="images/location.png" alt="Location">
+					<p>123 Main Street<br>Anytown, USA 12345</p>
+				</div>
+				<div class="contact-item">
+					<img src="images/phone.png" alt="Phone">
+					<p>(123) 456-7890</p>
+				</div>
+				<div class="contact-item">
+					<img src="images/email.png" alt="Email">
+					<p>info@healthcarecenter.com</p>
+				</div>
+			</div>
+		</section>
+Ankit Garg
+continue
+
+css
+</main>
+<footer>
+	<p>&copy; 2023 Health Care Center. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+<style>
+/* general styles */
+
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* header styles */
+
+/* header {
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+nav ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li a {
+	font-size: 18px;
+	font-weight: 500;
+	transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #00c7c7;
+}
+
+/* banner styles */
+
+
