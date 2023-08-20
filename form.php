@@ -106,7 +106,7 @@
     <body bgcolor="black">
         <div class="container">
            <marquee> <h1>Enter Your Details</h1> </marquee>
-            <form action="http://localhost/project/customer.php" method="post" onsubmit="return validation()">
+            <form action="http://localhost/HCC%20project/sconn.php" method="post" onsubmit="return validation()">
                 <div class="form-group">
                     <input type="text" name="name" placeholder="Enter your Name">
                 </div>

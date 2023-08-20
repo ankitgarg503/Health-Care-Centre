@@ -11,9 +11,9 @@
 		<nav>
 			<ul>
 				<li><a href="#about-us">About Us</a></li>
-				<li><a href="#services">Services</a></li>
+				<li><a href="http://localhost/HCC%20project/hospital.php">Services</a></li>
 				<li><a href="#contact-us">Contact Us</a></li>
-				<li><a href="file:///D:/HCC%20Project/form.html">Login</a></li>
+				<li><a href="http://localhost/HCC%20project/form.php">Login</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -31,22 +31,22 @@
 			<h2>Services</h2>
 			<div class="services-grid">
 				<div class="service">
-					<img src="i2.jpg" alt="Service 1">
+					<img src="medicine2.png" alt="Service 1">
 					<h3>General Medicine</h3>
 					<p>Our general medicine department provides a wide range of medical services to help you maintain good health and treat any illnesses or injuries.</p>
 				</div>
 				<div class="service">
-					<img src="i2.jpg" alt="Service 2">
+					<img src="pediatrics.jpg" alt="Service 2">
 					<h3>Pediatrics</h3>
 					<p>Our pediatrics department specializes in providing medical care to infants, children, and adolescents, ensuring that they receive the best possible care.</p>
 				</div>
 				<div class="service">
-					<img src="i2.jpg" alt="Service 3">
+					<img src="cardiology1-1.jpeg" alt="Service 3">
 					<h3>Cardiology</h3>
 					<p>Our cardiology department provides advanced cardiac care, including diagnostic testing and treatment for heart disease and related conditions.</p>
 				</div>
 				<div class="service">
-					<img src="i2.jpg" alt="Service 4">
+					<img src="dental.jpg" alt="Service 4">
 					<h3>Dental Care</h3>
 					<p>Our dental care department provides a wide range of dental services, including preventive care, restorative treatments, and cosmetic procedures.</p>
 				</div>

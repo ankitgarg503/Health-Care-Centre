@@ -1,5 +1,24 @@
 // Sample data for search
-const data = [  {    title: 'kmc',    description: 'This is a sample item with some text.',   image: 'hosp1.jpg',    category: 'Category 1'  },  {    title: 'suncity',    description: 'This is another sample item with some text.',    image: 'hosp2.jpg',    category: 'Category 2'  },  {    title: 'Orthodontic',    description: 'This is a third sample item with some text.',    image: 'hosp_3.jpg',    category: 'Category 1'  },  {    title: 'Dental Clinic',    description: 'This is a fourth sample item with some text.',    image: 'hosp5.jpg',    category: 'Category 2'  }];
+const data = [  {    title: 'kmc',    description: 'This is a sample item with some text.', 
+  image: 'hosp1.jpg',    category: 'Category 1'  }, 
+   {    title: 'suncity',  
+     description: 'This is another sample item with some text.', 
+        image: 'hosp2.jpg',    category: 'Category 2'  }, 
+         {    title: 'Orthodontic',    description: 'This is a third sample item with some text.',  
+           image: 'hosp_3.jpg',    category: 'Category 1'  },  {    title: 'Dental Clinic',   
+ description: 'This is a fourth sample item with some text.',    image: 'hosp5.jpg',    category: 'Category 2' },
+
+ {    title: 'Atharva Hospital',description: 'This is a fifth sample item with some text.',
+     image: 'hosp1.jpg',    category: 'Category 1'  },
+ {    title: 'Sparsha Clinic',description: 'This is a sixth sample item with some text.',
+     image: 'hosp5.jpg',    category: 'Category 2'  },
+ {    title: 'Venus Hospital',description: 'This is a seventh sample item with some text.',
+     image: 'hosp2.jpg',    category: 'Category 1'  },
+ {    title: 'Vasudev Clinic',description: 'This is a eighth sample item with some text.',
+     image: 'hosp3.jpg',    category: 'Category 2'  }
+
+
+];
 
 // Function to search data
 function searchData() {
