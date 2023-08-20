@@ -70,6 +70,7 @@ nav ul li a:hover {
 
 #banner {
 	background-image: url('i2.jpg');
+	background-repeat:repeat-x;
 	background-size: cover;
 	background-position: center;
 	height: 500px;
